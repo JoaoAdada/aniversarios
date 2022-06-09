@@ -1,0 +1,39 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300&family=Tiro+Gurmukhi:ital@1&display=swap');
+
+:root {
+    --cor-fundo:#ABEAD4 ;
+    --cor-titulo:#4A665C ;
+    --cor-texto: #4DB38F;
+    --cor-tabela:#2C6652;
+    --cor-borda:#63E6B9;
+    --fonte:Inter ;
+
+}
+
+body{
+    background-color: var(--cor-fundo);
+    font-family: var(--fonte);
+    width: 1200px;
+    max-width: 100%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+h1, h2 {
+    color: var(--cor-texto);
+}
+
+p{
+    color: var(--cor-texto);
+}
+
+td, th{
+    border: 5px solid var(--cor-borda);
+    background-color: var(--cor-tabela);
+    color: var(--cor-texto);
+}
+
+
+table {
+    display: inline;
+}
